@@ -1,0 +1,63 @@
+.footer {
+  background: $main;
+  padding: 0;
+  margin-top: 100px;
+  text-align: center;
+  color: #FFF;
+  .love {
+    color: red;
+  }
+  a {
+    text-decoration: none;
+    margin: 0;
+    color: #FFF;
+    &:hover{
+      color: $sec;
+    }
+    &:active {
+      color: $sec;
+    }
+  }
+}
+
+.container{
+  display: inline-block;
+  width: 100%;
+}
+
+.col h5 {
+  float: right;
+}
+
+.col {
+  width: 23%;
+  padding-left: 2%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+.col a{
+  color: #d3d3d3;
+}
+
+.footHead{
+  font-size: 1rem;
+  color: $yellow;
+}
+
+.footContent {
+  font-size: .8rem;
+}
+
+#contact {
+  float: right;
+  font-size: 1.3rem;
+  color: #d3d3d3;
+}
+
+#firstCol {
+  padding-left: 0;
+  padding-right: 8%;
+  width: 17%;
+}
